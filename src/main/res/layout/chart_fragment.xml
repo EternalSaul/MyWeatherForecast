@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DateText1"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DateText2"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DateText3"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DateText4"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DateText5"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cloudy1"
+        android:id="@+id/NextdayView1"
+        android:layout_columnWeight="0.2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cloudy1"
+        android:id="@+id/NextdayView2"
+        android:layout_columnWeight="0.2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cloudy1"
+        android:id="@+id/NextdayView3"
+        android:layout_columnWeight="0.2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cloudy1"
+        android:id="@+id/NextdayView4"
+        android:layout_columnWeight="0.2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cloudy1"
+        android:id="@+id/NextdayView5"
+        android:layout_columnWeight="0.2"/>
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextdayText1"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextdayText2"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextdayText3"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextdayText4"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextdayText5"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <com.example.saulxk.view.LineView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_columnSpan="5"
+        android:id="@+id/chartView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cloudy1"
+        android:id="@+id/NextdayView_Night1"
+        android:layout_columnWeight="0.2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cloudy1"
+        android:id="@+id/NextdayView_Night2"
+        android:layout_columnWeight="0.2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cloudy1"
+        android:id="@+id/NextdayView_Night3"
+        android:layout_columnWeight="0.2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cloudy1"
+        android:id="@+id/NextdayView_Night4"
+        android:layout_columnWeight="0.2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/cloudy1"
+        android:id="@+id/NextdayView_Night5"
+        android:layout_columnWeight="0.2"/>
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextdaySummary1"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextdaySummary2"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextdaySummary3"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextdaySummary4"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextdaySummary5"
+        android:layout_columnWeight="0.2"
+        android:gravity="center_horizontal" />
+
+</GridLayout>

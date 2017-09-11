@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:columnCount="5">
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_comfort"
+    android:id="@+id/WeatherIndex1"
+    android:layout_columnWeight="0.2" />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_clothing"
+    android:id="@+id/WeatherIndex2"
+    android:layout_columnWeight="0.2" />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_fever"
+    android:id="@+id/WeatherIndex3"
+    android:layout_columnWeight="0.2" />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_dry"
+    android:id="@+id/WeatherIndex4"
+    android:layout_columnWeight="0.2" />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_travel"
+    android:id="@+id/WeatherIndex5"
+    android:layout_columnWeight="0.2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WeatherIndexText1"
+    android:layout_columnWeight="0.2"
+    android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WeatherIndexText2"
+    android:layout_columnWeight="0.2"
+    android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WeatherIndexText3"
+    android:layout_columnWeight="0.2"
+    android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WeatherIndexText4"
+    android:layout_columnWeight="0.2"
+    android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WeatherIndexText5"
+    android:layout_columnWeight="0.2"
+    android:gravity="center" />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_uv"
+    android:id="@+id/WeatherIndex6"
+    android:layout_columnWeight="0.2"
+    android:layout_marginTop="20dp"/>
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_cleancar"
+    android:id="@+id/WeatherIndex7"
+    android:layout_columnWeight="0.2"
+    android:layout_marginTop="20dp"/>
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_run"
+    android:id="@+id/WeatherIndex8"
+    android:layout_columnWeight="0.2"
+    android:layout_marginTop="20dp"/>
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_date"
+    android:id="@+id/WeatherIndex9"
+    android:layout_columnWeight="0.2"
+    android:layout_marginTop="20dp"/>
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_umbrella"
+    android:id="@+id/WeatherIndex10"
+    android:layout_columnWeight="0.2"
+    android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WeatherIndexText6"
+    android:layout_columnWeight="0.2"
+    android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WeatherIndexText7"
+    android:layout_columnWeight="0.2"
+    android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WeatherIndexText8"
+    android:layout_columnWeight="0.2"
+    android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WeatherIndexText10"
+    android:layout_columnWeight="0.2"
+    android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/WeatherIndexText9"
+    android:layout_columnWeight="0.2"
+    android:gravity="center" />
+
+
+</GridLayout>

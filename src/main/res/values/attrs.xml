@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mFristX" format="float" />
+    <attr name="mLineHeight" format="float"/>
+    <attr name="mHighsTempest" format="float"/>
+    <attr name="mViewHeight" format="integer" />
+    <attr name="mViewWidth" format="integer" />
+    <attr name="mTempTextSize" format="integer" />
+    <attr name="mTempTextColor" format="integer" />
+    <attr name="mWeaLineWidth" format="integer" />
+    <attr name="mWeaDotRadius" format="integer" />
+    <attr name="mTextDotDistance" format="integer" />
+    <attr name="mLowsTempest" format="integer" />
+    <attr name="mInterval" format="integer" />
+    <attr name="mSpace" format="integer" />
+
+    <declare-styleable name="LineView">
+        <attr name="mViewHeight" />
+        <attr name="mViewWidth" />
+        <attr name="mTempTextSize" />
+        <attr name="mTempTextColor"/>
+        <attr name="mWeaLineWidth" />
+        <attr name="mWeaDotRadius" />
+        <attr name="mTextDotDistance" />
+        <attr name="mHighsTempest"/>
+        <attr name="mLowsTempest" />
+        <attr name="mInterval" />
+        <attr name="mFristX"  />
+        <attr name="mLineHeight"/>
+        <attr name="mSpace"/>
+    </declare-styleable>
+</resources>

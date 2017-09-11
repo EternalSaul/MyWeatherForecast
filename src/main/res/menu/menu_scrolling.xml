@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.saulxk.weatherforecast.ScrollingActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_changecity"
+        android:icon="@drawable/ic_city"
+        app:showAsAction="never" >
+    </item>
+    <item
+        android:id="@+id/action_location"
+        android:orderInCategory="100"
+        android:title="获取位置信息"
+        android:icon="@drawable/ic_location2"
+        app:showAsAction="never" >
+    </item>
+</menu>
